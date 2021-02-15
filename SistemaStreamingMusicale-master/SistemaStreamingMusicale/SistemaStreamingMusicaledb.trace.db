@@ -1,0 +1,3 @@
+2020-01-16 13:17:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BRANO" not found; SQL statement:
+DROP TABLE BRANO [42102-200]

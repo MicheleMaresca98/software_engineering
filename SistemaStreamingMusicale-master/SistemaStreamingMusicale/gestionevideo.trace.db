@@ -1,0 +1,12 @@
+2020-01-16 13:12:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE TABLE[*] BRANO;"; expected "identifier"; SQL statement:
+DELETE TABLE BRANO; [42001-200]
+2020-01-16 13:13:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BRANO" already exists; SQL statement:
+CREATE TABLE BRANO( NOME VARCHAR(30) PRIMARY KEY, DURATA INT); [42101-200]
+2020-01-16 13:14:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BRANO" already exists; SQL statement:
+CREATE TABLE BRANO( NOME VARCHAR(30) PRIMARY KEY, DURATA INT); [42101-200]
+2020-01-16 13:16:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BRANO" already exists; SQL statement:
+CREATE TABLE BRANO( NOME VARCHAR(30) PRIMARY KEY, DURATA INT); [42101-200]
